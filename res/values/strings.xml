@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidTetris</string>
+    <string name="Pause">Пауза</string>
+    <string name="Resume">Возобновить</string>
+    <string name="Restart">Переиграть</string>
+    <string name="Next">След.блок:</string>
+    <string name="Score">Счет:</string>
+    <string name="Quit">В меню</string>
+    <string name="GameOver">Игра окончена!</string>
+    <string name="Lost">Нет места для нового блока. Вы проирали.</string>
+    <string name="Replay">Переиграть</string>
+    <string name="QuitG">Выйти в меню</string>
+    <string name="TopScores">Результаты:</string>
+    <string name="Gratz">Поздравляем!</string>
+    <string name="Win">Ваш результат наилучший среди всех!</string>
+    <string name="SaveS">Сохранить результат?</string>
+    <string name="Cancel">Нет</string>
+    <string name="start">Начать</string>
+    <string name="game_name">BLACK TETRIS</string>
+    <string name="exit">Выход</string>
+    <string name="score">Результаты</string>
+    <string name="keys">Правила</string>
+    <string name="title_activity_menu">BLACK TETRIS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_rules">RulesActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="key1">Случайные фигурки тетрамино падают сверху в прямоугольный стакан шириной 12 и высотой 18 клеток. В полёте игрок может поворачивать фигурку и двигать её по горизонтали. </string>
+    <string name="key2">Также можно «сбрасывать» фигурку, то есть ускорять её падение, когда уже решено, куда фигурка должна упасть. Фигурка летит, пока не наткнётся на другую фигурку либо на дно стакана. </string>
+    <string name="key3">Если при этом заполнился горизонтальный ряд из 12 клеток, он пропадает и всё, что выше его, опускается на 1 клетку. </string>
+    <string name="key4">Игра заканчивается, когда новая фигурка не может поместиться в стакан. Игрок получает очки за каждый уничтоженный ряд. Скорость игры увеличивается при набирании 15, 25 и 50 очков.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_score">ScoreActivity</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.game"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/black"
+        android:label="@string/app_name" >
+        <activity
+            android:name="android.game.MainAct"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="android.game.MenuActivity"
+            android:label="@string/title_activity_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="android.game.RulesActivity"
+            android:label="@string/title_activity_rules" >
+        </activity>
+        <activity
+            android:name="android.game.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="android.game.ScoreActivity"
+            android:label="@string/title_activity_score" >
+        </activity>
+        <service
+            android:name="android.game.MyService"
+            android:enabled="true" />
+    </application>
+
+</manifest>
